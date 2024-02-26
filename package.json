@@ -6,10 +6,27 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "jest": "^27.5.1",
+    "jest-html-reporters": "^3.1.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "lcov",
+      "text-summary",
+      "jest-coverage-reporters"
+    ],
+    "coverageReportersConfig": {
+      "jest-coverage-reporters": {
+        "chartOptions": {
+          "openBrowser": true
+        }
+      }
+    }
   },
   "scripts": {
     "start": "react-scripts start",
