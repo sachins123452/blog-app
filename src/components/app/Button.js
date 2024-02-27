@@ -57,7 +57,7 @@ Button.defaultProps = {
   fontSize: 14,
   borderRadius: 5,
   color: "#fff",
-  onClick: () => alert("hello"),
+  
   leftIcon:false,
   rightIcon:false
 };
