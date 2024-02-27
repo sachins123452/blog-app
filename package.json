@@ -20,7 +20,16 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "coverage": "npm test -- --coverage"
+    "test-coverage": "npm run test -- --coverage --coverageDirectory=output/coverage/jest --watchAll=false"
+  },
+  "jest":{
+     "transform":{
+      "^.+\\.(js|jsx)$":"babel-jest"
+     },
+     "coverageReporters":[
+      "text",
+      "cobertura"
+     ]
   },
   "eslintConfig": {
     "extends": [
