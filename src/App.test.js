@@ -74,13 +74,12 @@
 //   expect(screen.getByText('Hello')).toBeInTheDocument()
 // })
 
-// test('get by role',()=>{
-//   render(<App/>)
-//   const inputField=screen.getByRole('textbox')
-//   expect(inputField).toBeInTheDocument()
-// })
 
-const mathsOps=require('./App.js')
+
+
+const mathsOps=require('./components/app/App.js')
+
+
 describe("Calculator tests",()=>{
   test("add 2 numbers",()=>{
     const val=mathsOps.sum(3,4)
@@ -88,7 +87,7 @@ describe("Calculator tests",()=>{
   })
   test("add 2 numbers to get success response",()=>{
     const val=mathsOps.sum(3,4)
-    expect(val).toBe(7)
+    expect(val).toBe(8)
   })
   test("divide 2 numbers",()=>{
     const val=mathsOps.divide(6,2)
