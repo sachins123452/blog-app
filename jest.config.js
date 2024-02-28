@@ -1,5 +1,11 @@
 module.exports = {
-    // other configurations...
-    collectCoverage: true,
-    coverageDirectory: 'coverage',
-  };
+  reporters: [
+    "default",
+    ["jest-html-reporters", {
+      publicPath: "./html-report",
+      filename: "report.html",
+      expand: true,
+    }]
+  ],
+  // Other Jest configurations...
+};
