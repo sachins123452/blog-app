@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="4" failures="1" errors="0" time="6.715">
+  <testsuite name="Calculator tests" errors="0" failures="1" skipped="0" timestamp="2024-02-28T07:00:35" time="3.323" tests="4">
+    <testcase classname="Calculator tests add 2 numbers" name="Calculator tests add 2 numbers" time="0.002">
+    </testcase>
+    <testcase classname="Calculator tests add 2 numbers to get success response" name="Calculator tests add 2 numbers to get success response" time="0.004">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 8
+Received: 7
+    at Object.&lt;anonymous&gt; (D:\blog-app\src\App.test.js:90:17)
+    at Promise.then.completed (D:\blog-app\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (D:\blog-app\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (D:\blog-app\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (D:\blog-app\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (D:\blog-app\node_modules\jest-circus\build\run.js:66:9)
+    at _runTestsForDescribeBlock (D:\blog-app\node_modules\jest-circus\build\run.js:60:9)
+    at run (D:\blog-app\node_modules\jest-circus\build\run.js:25:3)</failure>
+    </testcase>
+    <testcase classname="Calculator tests divide 2 numbers" name="Calculator tests divide 2 numbers" time="0.001">
+    </testcase>
+    <testcase classname="Calculator tests multiple 2 numbers" name="Calculator tests multiple 2 numbers" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

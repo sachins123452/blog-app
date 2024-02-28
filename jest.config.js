@@ -1,11 +1,4 @@
 module.exports = {
-  reporters: [
-    "default",
-    ["jest-html-reporters", {
-      publicPath: "./html-report",
-      filename: "report.html",
-      expand: true,
-    }]
-  ],
-  // Other Jest configurations...
+  // other Jest configurations
+  testResultsProcessor: 'jest-junit'
 };
