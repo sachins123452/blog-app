@@ -1,7 +1,7 @@
 // __tests__/Button.test.js
 import React from 'react';
 import { fireEvent, render } from '@testing-library/react';
-import Button from './components/app/Button';
+import Button from './components/app/Button.js';
 
 test('renders Button component with custom label', () => {
   render(<Button label="Custom Label" />);
