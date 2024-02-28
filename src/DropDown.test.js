@@ -1,7 +1,7 @@
 // __tests__/DropDown.test.js
 import React from 'react';
 import { render } from '@testing-library/react';
-import DropDown from './components/app/DropDown';
+import DropDown from './components/app/DropDown.js';
 
 test('renders DropDown component with custom label', () => {
   render(<DropDown />);
