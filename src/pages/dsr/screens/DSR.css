@@ -1,0 +1,16 @@
+.container_DSR {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.visibilityicon_style_dsr {
+  background-color: #4cb748;
+  color: #fff;
+  border-radius: 20px;
+  min-width: 55px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.visibilityicon_dsr {
+  font-size: 10px;
+}

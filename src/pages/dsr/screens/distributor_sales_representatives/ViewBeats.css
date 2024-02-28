@@ -1,0 +1,17 @@
+.maincontaineeerrrrr {
+  width: 100%;
+  height: 100vh;
+}
+.btnstyleee {
+  border-radius: 15;
+  width: 50px;
+  color: #fff;
+  background-color: #4cb748;
+  min-width: 40px;
+  margin-right: 15px;
+}
+
+.containerrrsss {
+  display: flex;
+  flex-direction: row;
+}

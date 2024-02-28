@@ -1,0 +1,37 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px 5px 15px 5px;
+    min-width: 260px;
+    justify-content: space-between;
+    margin-left: 5px;
+    flex-wrap: wrap;
+}
+.mycartButton1{
+    background-color: #4CB748;
+    width: 90%;
+    display: flex;
+    height: 40px;
+    border-radius: 10px;
+    align-self: center;
+    flex-direction: row;
+    padding: 10px;
+    margin-top:15px;
+}
+.mycartButton:hover{
+    background-color: #4CB748;
+    
+}
+.input{
+    width:20%;
+    text-align:center;
+    background-color:#E5F1F8;
+    border-radius:5px;
+    border:0px;
+    color:#0174BF; 
+}
+.input::after{
+    border: 2px solid red;
+}

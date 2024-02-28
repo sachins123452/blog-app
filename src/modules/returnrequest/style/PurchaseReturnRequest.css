@@ -1,0 +1,21 @@
+.ReturnRequst_textCss_Return_Request {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: GilroyBold;
+  font-size: 18px;
+}
+.viewCss_Return_Request {
+  background-color: #4cb748;
+  color: #fff;
+  border-radius: 20px;
+  min-width: 55px;
+  font-size: 12px;
+  cursor: pointer;
+}
+/* .contentMainContainer_Return_Request {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  align-items: center;
+} */

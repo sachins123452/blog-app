@@ -1,0 +1,132 @@
+    .tableContainer{
+      width: 100%;
+      overflow-x: auto;
+      position: relative;
+      display: block;
+      max-width: 100%;
+      min-width: 70%;
+      border-radius: 15px;
+      background-color: #fff;
+      border: 1px solid #E6E6E6;
+      /* '& td; & th': { whiteSpace: 'nowrap' } */
+    }
+    .tableHead{
+      padding-left: 50px;
+    }
+    .headerRow{
+      background-color: #fff;
+      font-family:GilroyBold;
+      height: 60px;
+    }
+    .contentRow{
+      height: 100px;
+    }
+    .contentCell{
+      border: 0px;
+      flex-direction: row;
+      display: flex;
+      align-items: center;
+    }
+    .contentImage{
+      width: 15%;
+      height: 15%;
+    }
+    .uomDiv{
+      display: flex;
+      flex-direction: row;
+      margin: 5px;
+    }
+    .uomBox{
+      width: 50px;
+      height: 22px;
+      background-color: #4CB748;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 15px;
+    }
+    .uomText {
+      color: #fff;
+      font-size: 12px;
+    }
+    .sizeDiv{ 
+    display: flex;
+     flex-direction: row;
+     margin: 5px; 
+    }
+    .sizeText { 
+        color: #000;
+        font-size: 12px;
+     }
+    .tableInput{
+      width: 50px;
+      text-align: center;
+      background-color: #E5F1F8;
+      border-radius: 5px;
+      border: 0px;
+      color: #0174BF;
+    }
+    .shippingCard {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .boxStack{
+      flex-direction: row;
+      display: flex;
+      width: 100%;
+    }
+    .shippingIcon{
+      color: #4CB748
+    }
+    .shippingCardButton {
+      border-radius: 10px;
+      background-color: #4CB748;
+    }
+    .shippingCardContent{
+      flex-direction: column;
+      display: flex;
+      justify-content: end;
+    }
+    .deliveryBox {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+    }
+    .deliveryBoxRemark {
+      padding: 10px;
+      background-color: #F8F8F8;
+      height: 100%;
+      border-radius: 10px;
+      border-bottom-width: 0px;
+      margin-top: 5px;
+      color:#000;
+    }
+    .css-dp17lp-MuiInputBase-input-MuiInput-input
+    {color:#000;}
+    .mycartBox {
+      display: flex;
+      flex-direction: row;
+    }
+    .mycartButton {
+      border-radius: 15px;
+      width: 50px;
+      color: #fff;
+      background-color: #4CB748;
+      min-width: 40px;
+      margin-right: 15px;
+    }
+    .mycartPlaceOrderButton{
+      background-color: #4CB748;
+      width: 100%;
+      margin-top: 15px;
+      display: flex;
+      height: 40px;
+      border-radius: 10px;
+      align-self: center;
+      flex-direction: row;
+      padding: 10px;
+    };
+    
+  

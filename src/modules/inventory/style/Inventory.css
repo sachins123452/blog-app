@@ -1,0 +1,88 @@
+.mainContainer_Inventory {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .tablebtn_Inventory {
+      background-color: #4cb748;
+      color: #fff;
+      border-radius: 20px;
+      min-width: 55px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+    .plusnewbtn_Inventory {
+      background-color: #0174bf;
+      border-radius: 7px;
+    }
+    .VisibilityIcon_Inventory {
+      font-size: 10px;
+    }
+    .mainContainer{
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 5px 5px 15px 5px;
+      min-width: 260px;
+      justify-content: space-between;
+      margin-left: 5px;
+      flex-wrap: wrap;
+  }
+  .mycartButton1{
+      background-color: #4CB748;
+      width: 90%;
+      display: flex;
+      height: 40px;
+      border-radius: 10px;
+      align-self: center;
+      flex-direction: row;
+      padding: 10px;
+      margin-top:15px;
+  }
+  .mycartButton:hover{
+      background-color: #4CB748;
+      
+  }
+  .input{
+      width:20%;
+      text-align:center;
+      background-color:#E5F1F8;
+      border-radius:5px;
+      border:0px;
+      color:#0174BF; 
+  }
+  .input::after{
+      border: 2px solid red;
+  }
+  .main_card_content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100vh; */
+  }
+  .main_heading_card_content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .change_btn_card_content {
+    text-align: end;
+  }
+  .btnstyle_card_content {
+    border-radius: 10px;
+    background-color: #4cb748;
+  }
+  .address_card_content_container {
+    flex-direction: column;
+    display: flex;
+    justify-content: end;
+  }
+  .main_text_card_content {
+    font-size: 15px;
+    font-family: SemiBold;
+  }
+  .text_address_card_content {
+    font-size: 12px;
+    font-family: Medium;
+  }
+  

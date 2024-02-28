@@ -1,0 +1,24 @@
+
+  
+  .card-item {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 2;
+  }
+  
+
+  .white-card button {
+    background-color: #4CB748;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    font-size: 11px;
+    width: 85px;
+    height: 25px;
+    margin-top: 5px;
+  }
+  

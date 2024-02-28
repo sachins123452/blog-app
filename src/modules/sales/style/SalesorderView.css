@@ -1,0 +1,53 @@
+ .orderViewCardContainer{
+      flex-direction: 'row';
+      padding: '2px';
+      font-family: 'Medium';
+      font-weight: '600';
+      color: '#1B2149';
+      font-size: 13;
+      display: flex;
+      justify-content: space-between;
+    }
+    .orderViewCardTitle{
+      margin-bottom: '5px';
+    }
+    .card4Container{
+      flex-direction: 'row';
+    
+      font-family: 'Medium';
+      font-weight: '400';
+      color: '#1B2149';
+      font-size: 14;
+      margin-top: 5;
+      display: flex;
+      
+    }
+    .card4Icon{
+      font-size: 14
+    }
+    .card4Text{
+      margin-left: 5px;
+     font-size: 15px;
+      font-family: 'GilroyBold';
+    }
+    .card4Content{
+      font-family: 'Medium';
+      font-weight : '600';
+      color: '#1B2149';
+      font-size: 13;
+      width: '85%'
+    }
+    .buttonContainer{
+      border-radius: 2;
+      background-color: '#0174bf'
+    }
+    .printButton{
+      border-radius: 2;
+      margin: '0.7rem';
+      background-color: '#0174bf'
+    }
+    .downloadButton{
+      border-radius: 2;
+      margin: '0.7rem';
+      background-color: '#0174bf'
+    }

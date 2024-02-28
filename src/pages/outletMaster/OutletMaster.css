@@ -1,0 +1,14 @@
+.outletmaster_maincontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.outletmaster_viewcss {
+  background-color: #4cb748;
+  color: #fff;
+  border-radius: 20px;
+  min-width: 55px;
+  font-size: 12px;
+  cursor: pointer;
+}

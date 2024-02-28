@@ -1,0 +1,63 @@
+.contentMainContainer_ReturnRequest_OrderViewCss {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contentSubContainer_ReturnRequest_OrderViewCss {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 2%;
+  width: 100%;
+}
+.labelCss_ReturnRequest_OrderViewCss {
+  display: flex;
+  flex-direction: column;
+}
+.titleCss_ReturnRequest_OrderViewCss {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.OrderViewtextCss_ReturnRequest_OrderViewCss {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.buttonCss_ReturnRequest_OrderViewCss {
+  border-radius: 2;
+  width: 100%;
+  background-color: #0174bf;
+  height: 2.7rem;
+}
+.mainContainer_ReturnRequest_OrderViewCss {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.arrowIconCss_ReturnRequest_OrderViewCss {
+  background-color: #4cb748;
+  width: 3rem;
+  height: 2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+.orderViewtext_Css_ReturnRequest_OrderViewCss {
+  font-size: 16px;
+  font-family: GilroyBold;
+  margin: 0.9rem;
+}
+.basicTabelContainer_ReturnRequest_OrderViewCss {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.submit_ReturnButton_ReturnRequest_OrderViewCss {
+  border-radius: 2px;
+  background-color: #4cb748;
+  height: 2.5rem;
+}
+.returnRequesttextCss_ReturnRequest_OrderViewCss {
+  font-family: GilroyBold;
+  /* // fontSize:'14px' */
+}

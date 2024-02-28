@@ -1,0 +1,28 @@
+.orderView_mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.orderView_ArrowIconCss{
+    background-color: #4cb748;
+    width: 3rem;
+    height: 2rem;
+    border-radius: 8px;
+    text-align: center;
+}
+.orderView_text{
+    font-size: 16;
+    font-family: 'GilroyBold';
+    margin: 0.9rem;
+}
+.orderView_Table{
+    display: flex;
+    justify-content: space-between;
+}
+.orderView_CancelTextCss{
+    border-radius: 2px;
+    width: 100%;
+    background-color: #4cb748;
+    height: 3.5rem;
+
+}
